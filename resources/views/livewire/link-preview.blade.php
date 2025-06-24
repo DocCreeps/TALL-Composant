@@ -17,7 +17,7 @@
                    class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
                    :class="{ 'border-red-500': showError }"
                    type="text"
-                   placeholder="Collez votre lien ici (ex: https://laracasts.com/series/livewire-basics)"
+                   placeholder="Collez votre lien ici"
                    aria-label="Lien à prévisualiser">
             <button class="flex-shrink-0 bg-blue-500 hover:bg-blue-700 border-blue-500 hover:border-blue-700 text-sm border-4 text-white py-1 px-2 rounded"
                     type="submit"
