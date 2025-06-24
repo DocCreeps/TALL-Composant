@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/link-preview', LinkPreview::class)->name('link.preview');
+Route::get('/link-preview', LinkPreview::class)->name('link-preview');

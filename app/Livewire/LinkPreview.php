@@ -148,6 +148,6 @@ class LinkPreview extends Component
 
     public function render()
     {
-        return view('livewire.link-preview');
+        return view('livewire.link-preview')->layout('layouts.app');
     }
 }
